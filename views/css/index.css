@@ -1,0 +1,94 @@
+:root{
+    --color-white: #fff;
+    --color-blue: dodgerblue;
+    --color-red: crimson;
+    --color-dark1: #1d1d1d;
+    --color-dark2: #222222;
+    --color-dark3: #353535;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-dark1);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.box-message{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+    border: 1px solid var(--color-dark3);
+    padding: 0 1em;
+    border-radius: 5px;
+    background: var(--color-dark2);
+}
+
+.btn-close-message{
+    background: none;
+    border: none;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.btn-close-message svg{
+    margin-top: 3px;
+}
+
+.input{
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    width: 15vw;
+}
+
+.button{
+    text-decoration: none;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-edit{
+    background-color: var(--color-dark3);
+}
+
+.btn-back{
+    background-color: var(--color-dark3);
+}
+
+.btn-delete{
+    font-size: 15px;
+    background-color: var(--color-red);
+}
+
+.btn-search{
+    width: 100%;
+}
+
+.table{
+    width: 70vw;
+    text-align: left;
+    margin: 0;
+}
+
+.table thead{
+    background-color: var(--color-dark3);
+}
+
+.table th,td{
+    padding: 12px;
+}
+
+.table tr:nth-child(even){
+    background-color: var(--color-dark2);
+}
+
